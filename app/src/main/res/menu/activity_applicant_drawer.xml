@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/algebra1"
+            android:title="Algebra 1"/>
+        <item
+            android:id="@+id/algebra2"
+            android:title="Algebra 2" />
+        <item
+            android:id="@+id/geometry"
+            android:title="Geometry" />
+        <item
+            android:id="@+id/trigonometry"
+            android:title="Trigonometry" />
+        <item
+            android:id="@+id/preCalc"
+            android:title="Pre-Calculus" />
+        <item
+            android:id="@+id/calc"
+            android:title="Calculus" />
+
+    </group>
+
+</menu>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="org.pltw.examples.math_inq">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:parentActivityName="org.pltw.examples.math_inq.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.pltw.examples.math_inq.MainActivity" />
+        </activity>
+        <activity android:name=".Home"></activity>
+        <activity
+            android:name=".profile"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".Tab1Activity"></activity>
+        <activity
+            android:name=".Algebra1"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName="org.pltw.examples.math_inq.Home" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.pltw.examples.math_inq.Home" />
+        </activity>
+        <activity
+            android:name=".Algebra2"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName="org.pltw.examples.math_inq.Home" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.pltw.examples.math_inq.Home" />
+        </activity>
+        <activity
+            android:name=".Geometry"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName="org.pltw.examples.math_inq.Home" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.pltw.examples.math_inq.Home" />
+        </activity>
+        <activity
+            android:name=".Trig"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName="org.pltw.examples.math_inq.Home" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.pltw.examples.math_inq.Home" />
+        </activity>
+        <activity
+            android:name=".PreCalc"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName="org.pltw.examples.math_inq.Home" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.pltw.examples.math_inq.Home" />
+        </activity>
+        <activity
+            android:name=".Calc"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName="org.pltw.examples.math_inq.Home" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.pltw.examples.math_inq.Home" />
+        </activity>
+        <activity android:name=".Add"/>
+        <activity android:name=".AddTo"/>
+
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+    </application>
+
+</manifest>

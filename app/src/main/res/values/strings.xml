@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MATH INQuiry</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_settings">Setings</string>
+    <string name="action_next">Next</string>
+
+    <string name="categories">Choose a category</string>
+
+    <string-array name="category_options">
+        <item>Select Category</item>
+        <item>Algebra 1</item>
+        <item>Algebra 2</item>
+        <item>Geometry</item>
+        <item>Trigonometry</item>
+        <item>Pre-Calculus</item>
+        <item>Calculus</item>
+    </string-array>
+
+</resources>
